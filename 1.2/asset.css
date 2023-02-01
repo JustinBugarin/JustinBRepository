@@ -10,3 +10,27 @@ body{
 #color-blue{
   color:aqua;
 }
+.lesson {
+  background-color: lemonchiffon;
+}
+
+.title {
+  color: darkblue;
+}
+
+#email {
+  background-color: goldenrod;
+}
+
+#github {
+  background-color: lightsteelblue;
+}
+
+#portfolio {
+  background-color: darkorange;
+}
+.paragraph-text{
+  font-size: larger;
+  line-height: 20px;
+  font-family: 'Trebuchet MS';
+}
