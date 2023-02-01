@@ -1,0 +1,12 @@
+body{
+  font-family: 'Courier New', Courier, monospace;
+}
+.font-italic{
+  font-style: italic;
+}
+.font-bold {
+  font-style: bold;
+}
+#color-blue{
+  color:aqua;
+}
