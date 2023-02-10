@@ -11,17 +11,18 @@ body {
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: rgb(128, 0, 128);
     color: #ffffff;
 }
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    color: yellow;
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    color: yellow;
 }
 
 .header div {
@@ -60,7 +61,7 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("https://www.fantraxhq.com/wp-content/uploads/2022/08/Los-Angeles-Lakers-Fantasy-Basketball-Preview-1.png");
     background-size: cover;
     background-position: center;
 }
@@ -83,123 +84,88 @@ p {
 
 .benefits {
     margin-right: 20px;
-    /* margin-bottom: 5px; */
+    margin-bottom: 5px;
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: purple;
     box-shadow: 10px 5px 5px black;
     text-align: center;
+    text-emphasis-style;
+    list-style-type: circle;
+    font-size: larger;
     
 }
-
+.benefits-leads div ol{
+list-style-type: circle;
+}
 .benefit-lead {
     margin-bottom: 32px;
-    color: #ffffff;
+    color:white;
+    list-style-type: circle;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+.personal-information {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: yellow;
+    color: black;
+    font-size: large;
     /* I wanted to give the boxes more detail instead of it looking a little plain */
     box-shadow: 10px 5px 5px black;
 }
 
-.online-reputation-management {
+.career-history {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: maroon;
     color: #ffffff;
+    font-size: large;
      /* same reason for detail */
     box-shadow: 10px 5px 5px black
 }
 
-.social-media-marketing {
+.career-awards {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: red;
     color: #ffffff;
     /* same reason for detail */
     box-shadow: 10px 5px 5px black
 }
 
-.search-engine-optimization img {
+.personal-information img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
+.career-history img {
     max-height: 200px;
 }
 
-.social-media-marketing img {
+.career-awards img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+.personal-information h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+.career-history h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.social-media-marketing h2 {
+.career-awards h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
