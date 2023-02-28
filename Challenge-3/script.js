@@ -1,5 +1,5 @@
 // Assignment Code
-var enter;
+var criteria;
 var genNumber;
 var genCharacter;
 var genUppercase;
@@ -11,8 +11,6 @@ character = ["!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/
 number = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
-
-space = [];
 
 var choices;
 
@@ -28,11 +26,11 @@ get.addEventListener("click", function () {
     document.getElementById("password").placeholder = ps;
 });
 function generatePassword() {
-    enter = parseInt(prompt("How many characters would you like your password? Choose between 8 and 128"));
-    if (!enter) {
+    criteria = parseInt(prompt("How many characters would you like your password? Choose between 8 and 128"));
+    if (!criteria) {
         alert("This needs a value");
-    } else if (enter < 8 || enter > 128) {
-        enter = parseInt(prompt("You must choose between 8 and 128"));
+    } else if (criteria < 8 || criteria > 128) {
+        criteria = parseInt(prompt("You must choose between 8 and 128"));
 
     } else {
         genNumber = confirm("Will this contain numbers?");
@@ -52,7 +50,7 @@ function generatePassword() {
         choices = character.concat(number, letters2);
     }
     else if (genCharacter && genNumber && genLowercase) {
-        choices = character.concat(number, alpha);
+        choices = character.concat(number, letters);
     }
     else if (genCharacter && genLowercase && genUppercase) {
         choices = character.concat(letters, letters2);
@@ -87,12 +85,9 @@ function generatePassword() {
     else if (genLowercase) {
         choices = letters;
     }
-    else if (genUppercase) {
-        choices = space.concat(letters2);
-    };
     var password = [];
 
-    for (var i = 0; i < enter; i++) {
+    for (var i = 0; i < criteria; i++) {
         var pickChoices = choices[Math.floor(Math.random() * choices.length)];
         password.push(pickChoices);
     }
